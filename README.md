@@ -31,3 +31,12 @@ Another pretty simple challenge based around string processing. The `cid` field 
 why it was included in the puzzle - maybe for story reasons? This one was essentially just "do string processing but more of it" with
 some regular expressions thrown in and I think the main challenge was keeping the code concise. My end result probably isn't overly
 readable but I was trying to keep to functional solutions for array processing again.
+
+### --- Day 5: Binary Boarding ---
+
+No code file today as this one was done manually from my mobile phone. Instantly twigged that the FBLR system converted directly to
+binary, so I pasted the input into a string replacer tool to do the conversion, then into a string sorting tool to find the max. Part
+2 was just a case of skimming the last digits in the list to find consecutive 1s or 0s, pointing to the missing seat number.
+
+Doing something like this on a mobile phone was very cumbersome, but for a lot of people, a mobile phone is all they have. Please
+consider supporting organisations that aim to get laptops to those who can't get them for themselves, like [devcareer.io](devcareer.io).
