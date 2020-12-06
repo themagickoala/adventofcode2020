@@ -40,3 +40,9 @@ binary, so I pasted the input into a string replacer tool to do the conversion, 
 
 Doing something like this on a mobile phone was very cumbersome, but for a lot of people, a mobile phone is all they have. Please
 consider supporting organisations that aim to get laptops to those who can't get them for themselves, like [devcareer.io](devcareer.io).
+
+### --- Day 6: Custom Customs ---
+
+This was actually a really nice intro to JavaScript Sets for me, which helped me feel like I learned something. I also took full
+advantage of this bein JavaScript and not TypeScript, and the fact that both Array and String have a `length` property, so that if my
+reduce function (which didn't take a second argument) only processed one element, it'd give the same result. Neat puzzle!
