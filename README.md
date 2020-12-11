@@ -80,3 +80,10 @@ saw terms like dynamic programming and chains. I followed along with another sol
 this was to do so recursively. The number of possible paths from one node is the sum of possible paths from the nodes it can reach.
 Once you realise that some of these will be calculated multiple times you can add a cache to look up path lengths from already
 calculated nodes.
+
+### --- Day 11: Seating System ---
+
+I definitely remember cellular automata (Conway's Game of Life being the prime example). This was just a simple case of iterating
+over each tick and keeping track of changes. Part 2 was only slightly more complex in concept, but took a fair bit more code writing.
+I decided to take a cue from yesterday and memoise the nearest seat in each direction for each seat, so as to not have to scan the
+map each time.

@@ -8,7 +8,7 @@ async function runDay(dayNo) {
     const dayCode = require(`./days/${day}.js`);
     dayCode(data);
   } catch (ex) {
-    console.log(ex.message);
+    console.log(ex);
   }
 }
 
