@@ -87,3 +87,11 @@ I definitely remember cellular automata (Conway's Game of Life being the prime e
 over each tick and keeping track of changes. Part 2 was only slightly more complex in concept, but took a fair bit more code writing.
 I decided to take a cue from yesterday and memoise the nearest seat in each direction for each seat, so as to not have to scan the
 map each time.
+
+### --- Day 12: Rain Risk ---
+
+This was a cool puzzle. The original set of instructions was fairly straightforward, but involved converting cardinal directions to
+numbers (you could always just rotate with a switch statement, but this seemed more efficient). Part 2 was interesting, and involved
+a more complex direction system. I probably could have used trig functions to do the rotation, but decided not to try to hard and used
+the switch statement. This actually led to an error where I was using the wrong values for a 180 turn, but other than that today went
+by with very few issues.
