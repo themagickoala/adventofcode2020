@@ -9,6 +9,6 @@
   "author": "Rory",
   "license": "ISC",
   "dependencies": {
-    "aoc-loader": "^1.4.1"
+    "aoc-loader": "^1.4.3"
   }
 }
